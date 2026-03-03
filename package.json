@@ -1,0 +1,17 @@
+{
+  "name": "@composiohq/connect",
+  "version": "1.0.0",
+  "description": "Skill for agents to use Composio Connect",
+  "type": "module",
+  "license": "MIT",
+  "author": "Composio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/composiohq/connect.git"
+  },
+  "scripts": {
+    "build:agents": "node scripts/build-agents.cjs",
+    "watch:agents": "node scripts/watch-agents.cjs",
+    "build": "npm run build:agents"
+  }
+}
